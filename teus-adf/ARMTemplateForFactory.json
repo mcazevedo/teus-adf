@@ -327,108 +327,6 @@
 								"mappings": [
 									{
 										"source": {
-											"name": "ProductID",
-											"type": "Int32",
-											"physicalType": "int"
-										},
-										"sink": {
-											"name": "ProductID",
-											"type": "Int32",
-											"physicalType": "INT_32"
-										}
-									},
-									{
-										"source": {
-											"name": "Name",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "Name",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "ProductNumber",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "ProductNumber",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "Color",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "Color",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "StandardCost",
-											"type": "Decimal",
-											"physicalType": "money",
-											"scale": 4,
-											"precision": 19
-										},
-										"sink": {
-											"name": "StandardCost",
-											"type": "Decimal",
-											"physicalType": "DECIMAL"
-										}
-									},
-									{
-										"source": {
-											"name": "ListPrice",
-											"type": "Decimal",
-											"physicalType": "money",
-											"scale": 4,
-											"precision": 19
-										},
-										"sink": {
-											"name": "ListPrice",
-											"type": "Decimal",
-											"physicalType": "DECIMAL"
-										}
-									},
-									{
-										"source": {
-											"name": "Size",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "Size",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "Weight",
-											"type": "Decimal",
-											"physicalType": "decimal",
-											"scale": 2,
-											"precision": 8
-										},
-										"sink": {
-											"name": "Weight",
-											"type": "Decimal",
-											"physicalType": "DECIMAL"
-										}
-									},
-									{
-										"source": {
 											"name": "ProductCategoryID",
 											"type": "Int32",
 											"physicalType": "int"
@@ -441,72 +339,24 @@
 									},
 									{
 										"source": {
-											"name": "ProductModelID",
+											"name": "ParentProductCategoryID",
 											"type": "Int32",
 											"physicalType": "int"
 										},
 										"sink": {
-											"name": "ProductModelID",
+											"name": "ParentProductCategoryID",
 											"type": "Int32",
 											"physicalType": "INT_32"
 										}
 									},
 									{
 										"source": {
-											"name": "SellStartDate",
-											"type": "DateTime",
-											"physicalType": "datetime"
-										},
-										"sink": {
-											"name": "SellStartDate",
-											"type": "DateTime",
-											"physicalType": "INT_96"
-										}
-									},
-									{
-										"source": {
-											"name": "SellEndDate",
-											"type": "DateTime",
-											"physicalType": "datetime"
-										},
-										"sink": {
-											"name": "SellEndDate",
-											"type": "DateTime",
-											"physicalType": "INT_96"
-										}
-									},
-									{
-										"source": {
-											"name": "DiscontinuedDate",
-											"type": "DateTime",
-											"physicalType": "datetime"
-										},
-										"sink": {
-											"name": "DiscontinuedDate",
-											"type": "DateTime",
-											"physicalType": "INT_96"
-										}
-									},
-									{
-										"source": {
-											"name": "ThumbNailPhoto",
-											"type": "Byte[]",
-											"physicalType": "varbinary"
-										},
-										"sink": {
-											"name": "ThumbNailPhoto",
-											"type": "Byte[]",
-											"physicalType": "BINARY"
-										}
-									},
-									{
-										"source": {
-											"name": "ThumbnailPhotoFileName",
+											"name": "Name",
 											"type": "String",
 											"physicalType": "nvarchar"
 										},
 										"sink": {
-											"name": "ThumbnailPhotoFileName",
+											"name": "Name",
 											"type": "String",
 											"physicalType": "UTF8"
 										}
@@ -591,186 +441,24 @@
 								"mappings": [
 									{
 										"source": {
-											"name": "ProductID",
+											"name": "ProductDescriptionID",
 											"type": "Int32",
 											"physicalType": "int"
 										},
 										"sink": {
-											"name": "ProductID",
+											"name": "ProductDescriptionID",
 											"type": "Int32",
 											"physicalType": "INT_32"
 										}
 									},
 									{
 										"source": {
-											"name": "Name",
+											"name": "Description",
 											"type": "String",
 											"physicalType": "nvarchar"
 										},
 										"sink": {
-											"name": "Name",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "ProductNumber",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "ProductNumber",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "Color",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "Color",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "StandardCost",
-											"type": "Decimal",
-											"physicalType": "money",
-											"scale": 4,
-											"precision": 19
-										},
-										"sink": {
-											"name": "StandardCost",
-											"type": "Decimal",
-											"physicalType": "DECIMAL"
-										}
-									},
-									{
-										"source": {
-											"name": "ListPrice",
-											"type": "Decimal",
-											"physicalType": "money",
-											"scale": 4,
-											"precision": 19
-										},
-										"sink": {
-											"name": "ListPrice",
-											"type": "Decimal",
-											"physicalType": "DECIMAL"
-										}
-									},
-									{
-										"source": {
-											"name": "Size",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "Size",
-											"type": "String",
-											"physicalType": "UTF8"
-										}
-									},
-									{
-										"source": {
-											"name": "Weight",
-											"type": "Decimal",
-											"physicalType": "decimal",
-											"scale": 2,
-											"precision": 8
-										},
-										"sink": {
-											"name": "Weight",
-											"type": "Decimal",
-											"physicalType": "DECIMAL"
-										}
-									},
-									{
-										"source": {
-											"name": "ProductCategoryID",
-											"type": "Int32",
-											"physicalType": "int"
-										},
-										"sink": {
-											"name": "ProductCategoryID",
-											"type": "Int32",
-											"physicalType": "INT_32"
-										}
-									},
-									{
-										"source": {
-											"name": "ProductModelID",
-											"type": "Int32",
-											"physicalType": "int"
-										},
-										"sink": {
-											"name": "ProductModelID",
-											"type": "Int32",
-											"physicalType": "INT_32"
-										}
-									},
-									{
-										"source": {
-											"name": "SellStartDate",
-											"type": "DateTime",
-											"physicalType": "datetime"
-										},
-										"sink": {
-											"name": "SellStartDate",
-											"type": "DateTime",
-											"physicalType": "INT_96"
-										}
-									},
-									{
-										"source": {
-											"name": "SellEndDate",
-											"type": "DateTime",
-											"physicalType": "datetime"
-										},
-										"sink": {
-											"name": "SellEndDate",
-											"type": "DateTime",
-											"physicalType": "INT_96"
-										}
-									},
-									{
-										"source": {
-											"name": "DiscontinuedDate",
-											"type": "DateTime",
-											"physicalType": "datetime"
-										},
-										"sink": {
-											"name": "DiscontinuedDate",
-											"type": "DateTime",
-											"physicalType": "INT_96"
-										}
-									},
-									{
-										"source": {
-											"name": "ThumbNailPhoto",
-											"type": "Byte[]",
-											"physicalType": "varbinary"
-										},
-										"sink": {
-											"name": "ThumbNailPhoto",
-											"type": "Byte[]",
-											"physicalType": "BINARY"
-										}
-									},
-									{
-										"source": {
-											"name": "ThumbnailPhotoFileName",
-											"type": "String",
-											"physicalType": "nvarchar"
-										},
-										"sink": {
-											"name": "ThumbnailPhotoFileName",
+											"name": "Description",
 											"type": "String",
 											"physicalType": "UTF8"
 										}
